@@ -1,0 +1,23 @@
+
+
+## consultar
+GET http://localhost:3000/api/users
+
+### crear
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "name":"Roberto Castillo",
+    "email":"robertocastill63@gmail.com",
+    "password":"$castellanos12$"
+}
+
+### login
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+    "email":"robertocastill63@gmail.com",
+    "password":"$castellanos12$"
+}
